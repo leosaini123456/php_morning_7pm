@@ -1,0 +1,29 @@
+PHP - Hypertext Preprocessor
+
+PHP is client "side scripting" lang
+when client send a request to the server and server execute the script on server and then send response to the client
+
+Php use to create Dyanamic Websites
+
+Project CMS -- Content Management System
+
+Popular PHP Websites
+    1. Facebook
+    2. Wordpress
+    3. Flipkart
+
+
+Step 2 
+XAMPP - Apache MariaDB PHP Perl
+
+
+
+
+Basic Structure 
+<?php -- starting tag
+
+?> -- end tag 
+
+<? ?>
+<?= ?>
+<% %>
