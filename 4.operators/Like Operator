@@ -1,0 +1,16 @@
+Like Operator
+
+1. search a name start with a
+select * from latx.studentdata where name LIKE "a%";
+
+2. search a name where "a" is in the end of the string
+select * from latx.studentdata where name LIKE "%a";
+
+3. between
+select * from latx.studentdata where name LIKE "%u%";
+
+4.start with "T" and end with "U";
+select * from latx.studentdata where name LIKE "t%u";
+
+5. 
+select * from latx.studentdata where name LIKE "_a%";
