@@ -11,20 +11,24 @@
     <div>
         <form action="login-data.php" method="POST">
             <label>
+                ID : <br>
+                <input type="text" name="id" required>
+</label>
+            <label>
                 Firstname : <br>
-                <input type="text" name="fname">
+                <input type="text" name="fname" required>
             </label>
             <label>
                 Lastname : <br>
-                <input type="text" name="lname">
+                <input type="text" name="lname" required>
             </label>
             <label>
                 Email : <br>
-                <input type="text" name="useremail">
+                <input type="text" name="useremail" required>
             </label>
             <label>
                 Phone No. : <br>
-                <input type="text" name="userphone">
+                <input type="text" name="userphone" required>
             </label>
             <br>
             <input id="submit" type="submit" value="submit" name="submit">

@@ -2,6 +2,7 @@
     if(isset($_POST["submit"]))
     {
         // echo "form submitted";
+        $id = $_POST["id"];
         $fname = $_POST["fname"];
         $lname = $_POST["lname"];
         $useremail = $_POST["useremail"];
@@ -23,12 +24,16 @@
             die("Not Connected");
         }
 
-        $query = "insert into users (id , FirstName, LastName, UserEmail, UserPhone) values (1, '$fname', '$lname', '$useremail' , '$userphone')";
+        $query = "insert into users (id , FirstName, LastName, UserEmail, UserPhone) values ($id, '$fname', '$lname', '$useremail' , '$userphone')";
 
         $result = mysqli_query($connection, $query);
-        // if(!result)
-        // {
-        //     die("Query Failed".mysqli_err());
-        // }
+        if($result)
+        {
+            header('Location: login.php');
+        }
+        else
+        {
+            die("Query Failed".mysqli_err());
+        }
     }
 ?>
