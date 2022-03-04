@@ -1,0 +1,8 @@
+Between Operator
+
+between operator select values at particular given range
+we can use this operator on number, date
+
+ex:
+select * from latx.studentdata where mark between 50 and 60;
+select * from latx.studentdata where mark between 1998-08-17 and 2022-01-04;

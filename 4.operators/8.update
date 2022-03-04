@@ -1,0 +1,8 @@
+id | name | percentage | age | gender | phone
+
+update table_name set col1=value1, col2=value2 where condition;
+
+ex:
+update table_name set age = 17 where id in (1,2);
+
+update value on both id

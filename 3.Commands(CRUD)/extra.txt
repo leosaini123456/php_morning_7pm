@@ -1,0 +1,54 @@
+How to create database?
+ create database database_name;
+
+to select particular database
+use database_name;
+
+
+Create table?
+create table table_name (
+    id INT,
+    name Varchar(50),
+    birth_date Date,
+    phone Varchar(12),
+    gender Varchar(1)
+);
+
+Insert Command
+
+insert into table_name ( col1, col2, col3, ....)  values (val1, val2 , val3, ....);
+
+insert into table_name ( col1, col2, col3,.... ) 
+values (val1, val2, val3 ,....),
+       (val1, val2, val3 ,....),
+       (val1, val2, val3 ,....);
+
+
+
+Constrants : 
+
+ex: create table student (id int , name varchar(20), age int , phone varchar(12), gender varchar(1) );
+
+    insert into student (id, name, gender ) values (1, "Vandana" , 15,  "F");
+
+    1. NOT NULL
+    2. DEFAULT
+    3. CHECK
+    4. UNIQUE
+
+    student table 
+
+    id  |   name    |   age    |    gender  |   Phone  |  City
+    1       Abc         20          M           1234        Mumbai
+    2       Def         19          F           5674        Mumbai
+    3       Ghi         15                      1011        Mumbai
+    4       Klm         23          M           1234        Mumbai
+
+create table Constrant (
+    id int NOT NULL  UNIQUE,
+    name varchar(20) NOT NULL,
+    age Int NOT NULL CHECK(age>=18),
+    gender varchar(1) NOT NULL,
+    phone varchar(12) NOT NULL UNIQUE,
+    City Varchar(10) NOT NULL DEFAULT "Mumbai"
+)

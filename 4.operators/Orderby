@@ -1,0 +1,6 @@
+order by is use to sort a data in ascending or descending order
+1.
+select * from latx.studentdata order by mark desc;
+
+2. select * from latx.studentdata order by mark;
+by default Asc;

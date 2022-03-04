@@ -1,0 +1,16 @@
+suppose we have a huge data but we want to see top 3 data only
+
+syntax
+select col1, col2 ,col3 from table_name where condition Limit 3;
+
+ex: 
+select * from table_name Limit 3;
+
+ex: 
+select * from table_name where name="Raj" Limit 3;
+ 
+
+ex : 
+select * from table_name limit 3,3;
+//skip first 3 record then show next 3 record
+

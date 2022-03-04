@@ -1,0 +1,26 @@
+Name  |  Gender | salary
+
+
+ex:
+select Count(column_name) from table_name;
+
+ex:
+select Count(column_name) from table_name where condition;
+
+ex:
+select Count(Distinct city) from table_name;
+
+
+
+ex: 
+select Sum(column_name) from table_name;
+
+ex:
+select Min(column_name) from table_name;
+
+ex:
+select Max(column_name) from table_name;
+
+
+ex:
+select Avg(column_name) from table_name;

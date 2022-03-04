@@ -1,0 +1,4 @@
+delete from table_name where condition;
+
+to delete all data 
+delete from table_name;

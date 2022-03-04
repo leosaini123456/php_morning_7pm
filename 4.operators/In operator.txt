@@ -1,0 +1,14 @@
+"In" Operator allow us to use multiple where clause.
+
+ex: age = 21 OR age = 45 OR age=20
+
+"In" operator is shorthand for multiple "OR" operators
+
+ex: 
+Using Or Operator
+select * from latx.studentdata where mark=78 OR mark=60 OR mark=55;
+
+using In Operator
+select * from latx.studentdata where mark IN (78,60,55);
+
+

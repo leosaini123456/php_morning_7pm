@@ -1,0 +1,6 @@
+disrinct command use to return only different values
+
+> select distinct col1, col2 from studentdata;
+
+select distinct age from studentdata orger by age;
+
